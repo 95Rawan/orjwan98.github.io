@@ -1,0 +1,181 @@
+
+		
+		* {
+		margin:0;
+		padding:0;
+		box-sizing: border-box;
+		}
+		
+		body {
+			font-family: 'Atma'; 
+			font-size: 20px;
+			background: #dcdcdc;
+			
+		}
+		
+		.container {
+		background: #ff9966; 
+		margin:auto;
+		padding:30px;
+		width:50%;
+		margin-top: 30px;
+		color:white;
+		border: 3px white dashed;
+		text-align:center;
+	<!-- margin-bottom: 30px; -->
+		}
+		
+		ul li {
+			list-style:none;
+		}
+		
+		.headerfooter {
+				margin:auto;
+				padding; 20px;
+				background: url(download.jpg);
+				width: 100%;
+				text-align:center;
+				
+		}
+		
+		.headerfooter:last-child{
+			margin-top:50px;
+		}
+		
+		header, footer {
+		border:5px white solid;
+		}
+		
+		header div h1 {
+		font-size: 50px;
+		color: white;
+		padding: 30px;
+		
+		}
+		
+		.gettoknowme {
+		text-align:center;
+		padding:10px;
+		margin-bottom:15px;
+		border:3px white dashed;
+		background: #ff9966;
+		
+		}
+		
+		.gettoknowme h2 {
+		font-size: 25px;
+		}
+		
+		gettoknowme p {
+		font-size:15px;
+		}
+		
+		div figure img {
+		width:150px;
+		border-radius: 10%;
+		margin:auto;
+		display:block;
+		margin-bottom:20px;
+		}
+		
+		figcaption p {
+		text-align:justify;
+		font-size: 20px;
+		
+		}
+		
+		section2 h2 {
+		text-align:center
+		}
+		
+		.container2 {
+		background: #21abcd; 
+		margin:auto;
+		padding:30px;
+		margin-top: 30px;
+		color:white;
+		border: 3px white dashed;
+		text-align:center;
+		<!-- width:50%; -->
+		<!-- margin-bottom: 30px; -->
+		}
+		
+		.dashedborder {
+		border: 1px white dotted;
+		padding:10px;
+		margin:10px;
+		}
+		 
+		 footer h4 {
+		 float:left;
+		 font-size:25px;
+		 margin: 25px;
+		 }
+		
+		.buttons {
+		text-align: right;
+		margin:15px;
+		margin-right:25px;
+		text-decoration:none;
+		}
+		
+		.button a, a {
+		text-decoration:none;
+		}
+		
+		.button a:link, a:link {
+		color:black;
+		
+		}
+		
+		.button a:active, a:active {
+		color:orange;
+		}
+		
+		.button a:hover, a:hover {
+		background:white;
+		
+		}
+		
+		.button a:visited, a:visited {
+		color:orange;
+		}
+		
+		.container1{
+			width:50%;
+			margin:auto;
+		}
+		
+		h2{
+		 z-index:3;
+		}
+		
+		.container1>h2,.container1>h3{
+			width:100%;
+		}
+		
+		.container1>.container2{
+			max-height:0px;
+			opacity:0;
+			transition:1s;
+			padding:0px;
+			margin-top:0px;
+			width:100%;
+			z-index:0;
+			overflow-y:hidden;
+		}
+		
+		.container1:hover>.container2{
+			opacity:1;
+			max-height:2000px;
+			padding:30px;
+			margin-top: 30px;
+			display:inline-block;
+		}
+		
+		.header-container{
+			width:50%;
+			margin:auto;
+		}
+
+	
